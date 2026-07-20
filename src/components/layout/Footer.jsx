@@ -1,134 +1,87 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaArrowUp, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
-import { ROUTES } from '../../constants/routes';
-import { COMPANY_INFO, SOCIAL_LINKS } from '../../constants/socials';
 
-const quickLinks = [
-  { label: 'Home', path: ROUTES.HOME },
-  { label: 'About Us', path: ROUTES.ABOUT },
-  { label: 'Services', path: ROUTES.SERVICES },
-  { label: 'Projects', path: ROUTES.PROJECTS },
-  { label: 'Gallery', path: ROUTES.GALLERY },
-  { label: 'Contact', path: ROUTES.CONTACT },
-];
-
-const serviceLinks = [
-  'Restaurant Canopies',
-  'Car Shades',
-  'Swimming Pool Shades',
-  'Pergolas',
-  'Gazebos',
-  'Parking Shades',
-  'Event Tents',
-  'Marquees',
-];
-
-export default function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+const Footer = () => {
+  const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary text-white relative">
-      <div className="container pt-16 pb-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+    <footer className="bg-greenbell-900 text-white">
+      <div className="container-custom py-12">
+        <div className="grid md:grid-cols-4 gap-8">
+          {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center">
-                <span className="text-white font-bold text-lg">G</span>
+            <div className="flex items-center gap-2 mb-4">
+              <div className="w-10 h-10 bg-greenbell-500 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-xl">G</span>
               </div>
               <div>
-                <span className="text-xl font-bold tracking-tight">GREENBELL</span>
-                <span className="block text-[10px] font-medium tracking-[0.2em] text-green-300">GROUP</span>
+                <h3 className="font-bold text-lg leading-tight">GREENBELL</h3>
+                <p className="text-xs text-greenbell-300 -mt-1">SHADES & CANOPIES</p>
               </div>
             </div>
-            <p className="text-white/70 text-sm leading-relaxed mb-6">
-              {COMPANY_INFO.tagline}. Providing premium shade and canopy solutions across Kenya since 2022.
+            <p className="text-sm text-greenbell-300 leading-relaxed">
+              Premium shade solutions transforming outdoor spaces across Kenya since 2022.
             </p>
-            <div className="flex gap-3">
-              {SOCIAL_LINKS.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={social.label}
-                  className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
-                >
-                  <social.icon className="text-sm" />
-                </a>
-              ))}
-            </div>
           </div>
 
+          {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-bold mb-6">Quick Links</h3>
-            <ul className="space-y-3">
-              {quickLinks.map((link) => (
-                <li key={link.path}>
-                  <Link
-                    to={link.path}
-                    className="text-white/70 text-sm hover:text-white transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
+            <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
+            <ul className="space-y-2 text-sm">
+              <li><Link to="/about" className="text-greenbell-300 hover:text-white transition-colors">About Us</Link></li>
+              <li><Link to="/services" className="text-greenbell-300 hover:text-white transition-colors">Services</Link></li>
+              <li><Link to="/projects" className="text-greenbell-300 hover:text-white transition-colors">Projects</Link></li>
+              <li><Link to="/gallery" className="text-greenbell-300 hover:text-white transition-colors">Gallery</Link></li>
+              <li><Link to="/contact" className="text-greenbell-300 hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
 
+          {/* Services */}
           <div>
-            <h3 className="text-lg font-bold mb-6">Our Services</h3>
-            <ul className="space-y-3">
-              {serviceLinks.map((service) => (
-                <li key={service}>
-                  <Link
-                    to={ROUTES.SERVICES}
-                    className="text-white/70 text-sm hover:text-white transition-colors"
-                  >
-                    {service}
-                  </Link>
-                </li>
-              ))}
+            <h4 className="font-semibold text-lg mb-4">Our Services</h4>
+            <ul className="space-y-2 text-sm">
+              <li className="text-greenbell-300">Canopy Manufacturing</li>
+              <li className="text-greenbell-300">Tent & Marquee</li>
+              <li className="text-greenbell-300">Car Shades</li>
+              <li className="text-greenbell-300">Custom Tarpaulins</li>
+              <li className="text-greenbell-300">Maintenance Services</li>
             </ul>
           </div>
 
+          {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-bold mb-6">Contact Us</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <FaMapMarkerAlt className="text-green-300 mt-1 flex-shrink-0" />
-                <span className="text-white/70 text-sm">{COMPANY_INFO.address}</span>
+            <h4 className="font-semibold text-lg mb-4">Contact</h4>
+            <ul className="space-y-2 text-sm">
+              <li className="text-greenbell-300 flex items-start gap-2">
+                <span>📍</span>
+                <span>R Astrol Business Center, Nairobi</span>
               </li>
-              <li className="flex items-center gap-3">
-                <FaPhone className="text-green-300 flex-shrink-0" />
-                <a href={`tel:${COMPANY_INFO.phone.replace(/\s/g, '')}`} className="text-white/70 text-sm hover:text-white transition-colors">
-                  {COMPANY_INFO.phone}
-                </a>
+              <li className="text-greenbell-300 flex items-center gap-2">
+                <span>📞</span>
+                <span>+254 716 807 767</span>
               </li>
-              <li className="flex items-center gap-3">
-                <FaEnvelope className="text-green-300 flex-shrink-0" />
-                <a href={`mailto:${COMPANY_INFO.email}`} className="text-white/70 text-sm hover:text-white transition-colors">
-                  {COMPANY_INFO.email}
-                </a>
+              <li className="text-greenbell-300 flex items-center gap-2">
+                <span>✉️</span>
+                <span>info@greenbellshades.co.ke</span>
+              </li>
+              <li className="text-greenbell-300 flex items-center gap-2">
+                <span>🌐</span>
+                <span>www.greenbellshades.co.ke</span>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-white/50 text-sm">
-            &copy; {new Date().getFullYear()} Greenbell Group. All rights reserved.
-          </p>
-          <button
-            onClick={scrollToTop}
-            className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
-            aria-label="Back to top"
-          >
-            <FaArrowUp className="text-sm" />
-          </button>
+        <div className="border-t border-greenbell-800 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-greenbell-400">
+          <p>© {currentYear} GREENBELL GROUP. All rights reserved.</p>
+          <div className="flex gap-6">
+            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+          </div>
         </div>
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;
