@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
 /* Custom theme configuration */
 @theme {
-  --font-family-marope: 'Manrope', sans-serif;
+  --font-family-marope: Georgia, 'Times New Roman', Times, serif;
 
   /* Red brand palette (replaces green theme) */
   --color-greenbell-50: #fef2f2;
