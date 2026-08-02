@@ -48,7 +48,7 @@
   .btn-primary {
     background-color: var(--color-greenbell-600);
     color: white;
-    padding: 0.75rem 2rem;
+    padding: 0.875rem 2.25rem;
     border-radius: 9999px;
     font-weight: 500;
     transition: all 0.3s;
@@ -64,7 +64,7 @@
   .btn-outline {
     border: 2px solid var(--color-greenbell-600);
     color: var(--color-greenbell-600);
-    padding: 0.75rem 2rem;
+    padding: 0.875rem 2.25rem;
     border-radius: 9999px;
     font-weight: 500;
     transition: all 0.3s;

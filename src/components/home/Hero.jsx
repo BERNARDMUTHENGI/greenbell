@@ -15,25 +15,25 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-black/30" />
       </div>
 
-      <div className="container-custom relative z-10 pt-10 md:pt-14 pb-16">
+      <div className="container-custom relative z-10 pt-12 md:pt-14 pb-16">
         <div className="max-w-3xl">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-3 md:mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-snug mb-4 md:mb-6">
             Premium Shade & Canopy Solutions{' '}
             <span className="text-red-400">Built to Last</span>
           </h1>
 
-          <p className="text-base sm:text-lg md:text-xl text-gray-200 mb-5 md:mb-10 leading-relaxed max-w-2xl">
+          <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-8 md:mb-10 leading-relaxed max-w-2xl">
             Custom-designed canopies, car shades, pergolas, gazebos, swimming pool covers,
             and commercial shade structures crafted with quality and precision.
           </p>
 
-          <div className="flex flex-wrap gap-3 md:gap-4">
-            <Link to="/get-quote" className="btn-primary text-sm md:text-base">
+          <div className="flex items-center gap-3 md:gap-4">
+            <Link to="/get-quote" className="btn-primary text-base md:text-base whitespace-nowrap">
               Get a Free Quote
             </Link>
             <Link
               to="/projects"
-              className="inline-block border-2 border-white text-white px-8 py-3 rounded-full text-sm md:text-base font-medium hover:bg-white hover:text-greenbell-700 transition-all duration-300"
+              className="inline-block border-2 border-white text-white px-6 md:px-8 py-3 rounded-full text-base md:text-base font-medium whitespace-nowrap hover:bg-white hover:text-greenbell-700 transition-all duration-300"
             >
               View Projects
             </Link>
