@@ -13,10 +13,12 @@ import ServiceDetail from './pages/ServiceDetail';
 import CarShadePrices from './pages/CarShadePrices';
 import WhatsAppButton from './components/common/WhatsAppButton';
 import ScrollToTopButton from './components/common/ScrollToTopButton';
+import ScrollToTopOnRoute from './components/common/ScrollToTopOnRoute';
 
 function App() {
   return (
     <div className="min-h-screen bg-white flex flex-col">
+      <ScrollToTopOnRoute />
       <Header />
       <main className="flex-grow pt-20">
         <Routes>

@@ -2,7 +2,7 @@
 
 /* Custom theme configuration */
 @theme {
-  --font-family-marope: Georgia, 'Times New Roman', Times, serif;
+  --font-family-marope: 'Times New Roman', Times, serif;
 
   /* Red brand palette (replaces green theme) */
   --color-greenbell-50: #fef2f2;

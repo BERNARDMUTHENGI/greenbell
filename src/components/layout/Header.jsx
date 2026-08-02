@@ -167,7 +167,7 @@ const Header = () => {
                   <>
                     <button
                       onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-                      className="w-full py-3 px-4 rounded-lg flex items-center justify-between text-blue-900 hover:bg-blue-50 transition-colors"
+                      className="w-full py-3 flex items-center justify-between text-blue-900 transition-colors"
                     >
                       <span className="font-medium">Services</span>
                       <svg
@@ -185,7 +185,7 @@ const Header = () => {
                           <Link
                             key={service.id}
                             to={`/services/${service.slug}`}
-                            className="py-2 px-4 rounded-lg text-sm text-blue-900 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                            className="py-2 text-sm text-blue-900 hover:text-blue-700 transition-colors"
                             onClick={() => setIsMenuOpen(false)}
                           >
                             {service.title}
@@ -193,7 +193,7 @@ const Header = () => {
                         ))}
                         <Link
                           to="/car-shade-prices"
-                          className="py-2 px-4 rounded-lg text-sm font-semibold text-greenbell-700 bg-gray-100 hover:bg-gray-200 transition-colors"
+                          className="py-2 text-sm font-semibold text-greenbell-700 transition-colors"
                           onClick={() => setIsMenuOpen(false)}
                         >
                           Car Shade Prices in Nairobi
@@ -205,10 +205,10 @@ const Header = () => {
                   <NavLink
                     to={link.path}
                     className={({ isActive }) =>
-                      `py-3 px-4 rounded-lg transition-colors ${
+                      `py-3 transition-colors ${
                         isActive
-                          ? 'bg-blue-50 text-blue-900 font-semibold'
-                          : 'text-blue-900 hover:bg-blue-50 hover:text-blue-700'
+                          ? 'text-blue-900 font-semibold'
+                          : 'text-blue-900 hover:text-blue-700'
                       }`
                     }
                     onClick={() => setIsMenuOpen(false)}
