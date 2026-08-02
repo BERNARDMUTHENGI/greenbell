@@ -42,7 +42,7 @@ const Gallery = () => {
                 className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
                   selectedCategory === category
                     ? 'bg-greenbell-600 text-white'
-                    : 'bg-gray-100 text-gray-600 hover:bg-greenbell-100'
+                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                 }`}
               >
                 {category}

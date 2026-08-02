@@ -105,7 +105,7 @@ const Header = () => {
                       ))}
                       <Link
                         to="/car-shade-prices"
-                        className="px-3 py-2.5 rounded-lg bg-greenbell-50 text-greenbell-700 hover:bg-greenbell-100 transition-colors text-sm font-semibold col-span-2"
+                        className="px-3 py-2.5 rounded-lg bg-gray-100 text-greenbell-700 hover:bg-gray-200 transition-colors text-sm font-semibold col-span-2"
                       >
                         Car Shade Prices in Nairobi
                       </Link>
@@ -193,7 +193,7 @@ const Header = () => {
                         ))}
                         <Link
                           to="/car-shade-prices"
-                          className="py-2 px-4 rounded-lg text-sm font-semibold text-greenbell-700 bg-greenbell-50 hover:bg-greenbell-100 transition-colors"
+                          className="py-2 px-4 rounded-lg text-sm font-semibold text-greenbell-700 bg-gray-100 hover:bg-gray-200 transition-colors"
                           onClick={() => setIsMenuOpen(false)}
                         >
                           Car Shade Prices in Nairobi

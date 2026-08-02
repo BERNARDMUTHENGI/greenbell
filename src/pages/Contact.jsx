@@ -56,7 +56,7 @@ const Contact = () => {
           <div className="grid lg:grid-cols-3 gap-12">
             {/* Contact Info */}
             <div className="lg:col-span-1 space-y-6">
-              <div className="bg-greenbell-50 p-6 rounded-2xl border border-greenbell-100">
+              <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm">
                 <h3 className="font-semibold text-greenbell-800 mb-4">Contact Information</h3>
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
@@ -102,7 +102,7 @@ const Contact = () => {
                 </p>
                 <a
                   href="tel:+254716807767"
-                  className="inline-block bg-white text-greenbell-700 px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-greenbell-50 transition-colors"
+                  className="inline-block bg-white text-greenbell-700 px-6 py-2.5 rounded-full text-sm font-semibold border border-greenbell-700 hover:bg-gray-50 transition-colors"
                 >
                   Call {companyInfo.phone}
                 </a>
@@ -111,7 +111,7 @@ const Contact = () => {
 
             {/* Form */}
             <div className="lg:col-span-2">
-              <div className="bg-greenbell-50 p-8 md:p-10 rounded-2xl border border-greenbell-100">
+              <div className="bg-white p-8 md:p-10 rounded-2xl border border-gray-200 shadow-sm">
                 <h3 className="text-2xl font-bold text-greenbell-800 mb-2">Send Us a Message</h3>
                 <p className="text-gray-600 text-sm mb-6">
                   Fill in the form below and your email client will open with your message ready to send.

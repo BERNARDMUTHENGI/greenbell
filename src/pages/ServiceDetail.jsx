@@ -45,7 +45,7 @@ const ServiceDetail = () => {
         <div className="container-custom">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {service.benefits.map((benefit, idx) => (
-              <div key={idx} className="bg-greenbell-50 rounded-2xl p-5 flex items-start gap-3">
+              <div key={idx} className="bg-white border border-gray-200 rounded-2xl p-5 flex items-start gap-3 shadow-sm">
                 <span className="w-6 h-6 rounded-full bg-greenbell-600 text-white flex items-center justify-center flex-shrink-0 mt-0.5">
                   <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
@@ -98,7 +98,7 @@ const ServiceDetail = () => {
             Get a free consultation and custom quote from our expert team today.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/get-quote" className="bg-white text-greenbell-700 px-8 py-3.5 rounded-full font-semibold hover:bg-greenbell-50 transition-colors">
+            <Link to="/get-quote" className="bg-white text-greenbell-700 px-8 py-3.5 rounded-full font-semibold border border-greenbell-700 hover:bg-gray-50 transition-colors">
               Get a Free Quote
             </Link>
             <a href="tel:+254716807767" className="inline-block border-2 border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white hover:text-greenbell-700 transition-colors">

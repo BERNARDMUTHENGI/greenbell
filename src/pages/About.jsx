@@ -45,25 +45,25 @@ const About = () => {
             </div>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
-              <div className="bg-greenbell-50 p-6 rounded-2xl border border-greenbell-100">
+              <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm">
                 <h3 className="font-bold text-greenbell-800 mb-2">Our Mission</h3>
                 <p className="text-sm text-gray-600">
                   "At Greenbell, our mission is to provide high-quality, customizable shade solutions
                   that enhance outdoor experiences, ensuring comfort and style for every customer, every time."
                 </p>
               </div>
-              <div className="bg-greenbell-50 p-6 rounded-2xl border border-greenbell-100">
+              <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm">
                 <h3 className="font-bold text-greenbell-800 mb-2">Our Vision</h3>
                 <p className="text-sm text-gray-600">
                   "Our vision is to be the leading provider of innovative shade solutions in Kenya,
                   transforming outdoor spaces into inviting retreats for individuals and businesses alike."
                 </p>
               </div>
-              <div className="bg-greenbell-50 p-6 rounded-2xl border border-greenbell-100">
+              <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm">
                 <h3 className="font-bold text-greenbell-800 mb-2">Core Values</h3>
                 <div className="flex flex-wrap gap-2">
                   {['Quality', 'Customer-Centricity', 'Innovation', 'Sustainability', 'Integrity'].map((value) => (
-                    <span key={value} className="bg-greenbell-100 text-greenbell-700 px-3 py-1 rounded-full text-sm">
+                    <span key={value} className="bg-gray-100 text-greenbell-700 px-3 py-1 rounded-full text-sm">
                       {value}
                     </span>
                   ))}

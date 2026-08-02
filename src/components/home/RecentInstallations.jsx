@@ -4,7 +4,7 @@ import { galleryData } from '../../data/content';
 
 const RecentInstallations = () => {
   return (
-    <section className="section-padding bg-greenbell-50">
+    <section className="section-padding bg-white">
       <div className="container-custom">
         <div className="text-center mb-12">
           <span className="text-greenbell-600 font-semibold text-sm uppercase tracking-wider">Site Works</span>

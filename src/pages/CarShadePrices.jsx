@@ -4,14 +4,14 @@ import { cantileverPrices, curvedPrices, companyInfo } from '../data/content';
 
 const PriceTable = ({ data }) => {
   return (
-    <div className="bg-white rounded-2xl shadow-sm border border-greenbell-100 overflow-hidden mb-10">
+    <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden mb-10">
       <div className="bg-greenbell-700 text-white px-6 py-4">
         <h3 className="font-bold text-lg">{data.title}</h3>
       </div>
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
-            <tr className="bg-greenbell-50 text-greenbell-800">
+            <tr className="bg-gray-50 text-greenbell-800">
               {data.columns.map((col, idx) => (
                 <th key={idx} className="px-4 py-3 text-left font-semibold whitespace-nowrap">
                   {col}
@@ -21,7 +21,7 @@ const PriceTable = ({ data }) => {
           </thead>
           <tbody>
             {data.rows.map((row, idx) => (
-              <tr key={idx} className={`border-t border-greenbell-50 ${idx % 2 === 0 ? 'bg-white' : 'bg-greenbell-50/50'}`}>
+              <tr key={idx} className={`border-t border-gray-100 ${idx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>
                 {row.map((cell, cidx) => (
                   <td key={cidx} className={`px-4 py-3 whitespace-nowrap ${cidx === 0 ? 'font-semibold text-greenbell-800' : 'text-gray-600'}`}>
                     {cell}
@@ -116,7 +116,7 @@ const CarShadePrices = () => {
               'Schools and institutions',
               'Commercial parking yards',
             ].map((item, idx) => (
-              <li key={idx} className="flex items-start gap-2 text-gray-700 bg-greenbell-50 rounded-xl px-4 py-3">
+              <li key={idx} className="flex items-start gap-2 text-gray-700 bg-white border border-gray-200 rounded-xl px-4 py-3">
                 <span className="text-greenbell-600 mt-1">▸</span>
                 {item}
               </li>
@@ -134,7 +134,7 @@ const CarShadePrices = () => {
             and preferred appearance.
           </p>
 
-          <div className="bg-greenbell-50 rounded-2xl p-6 md:p-8 mb-8">
+          <div className="bg-white border border-gray-200 rounded-2xl p-6 md:p-8 mb-8">
             <h3 className="text-xl font-bold text-greenbell-800 mb-3">1. Cantilever Car Shades</h3>
             <p className="text-gray-600 leading-relaxed mb-4">
               Cantilever car shades are among the most popular options in Nairobi and across Kenya. They feature
@@ -151,7 +151,7 @@ const CarShadePrices = () => {
             </ul>
           </div>
 
-          <div className="bg-greenbell-50 rounded-2xl p-6 md:p-8 mb-12">
+          <div className="bg-white border border-gray-200 rounded-2xl p-6 md:p-8 mb-12">
             <h3 className="text-xl font-bold text-greenbell-800 mb-3">2. Curved Car Shades</h3>
             <p className="text-gray-600 leading-relaxed mb-4">
               Curved car shades offer a premium and elegant look compared to standard flat designs. These shades
@@ -190,7 +190,7 @@ const CarShadePrices = () => {
             fully waterproof materials.
           </p>
 
-          <div className="bg-greenbell-50 rounded-2xl p-6 md:p-8 mb-6">
+          <div className="bg-white border border-gray-200 rounded-2xl p-6 md:p-8 mb-6">
             <h3 className="text-lg font-bold text-greenbell-800 mb-3">90% Non-Waterproof Shade Nets</h3>
             <p className="text-gray-600 leading-relaxed mb-3">
               These materials provide excellent UV protection while allowing airflow and partial water penetration.
@@ -212,7 +212,7 @@ const CarShadePrices = () => {
             </ul>
           </div>
 
-          <div className="bg-greenbell-50 rounded-2xl p-6 md:p-8 mb-12">
+          <div className="bg-white border border-gray-200 rounded-2xl p-6 md:p-8 mb-12">
             <h3 className="text-lg font-bold text-greenbell-800 mb-3">100% Waterproof Materials</h3>
             <p className="text-gray-600 leading-relaxed mb-3">
               Waterproof car shades completely block rain and provide maximum protection for vehicles.
@@ -240,31 +240,31 @@ const CarShadePrices = () => {
             Several factors determine the final cost of installing a car shade in Kenya.
           </p>
           <div className="space-y-4 mb-12">
-            <div className="bg-greenbell-50 rounded-2xl p-5">
+            <div className="bg-white border border-gray-200 rounded-2xl p-5">
               <h3 className="font-bold text-greenbell-800 mb-1">1. Size of the Structure</h3>
               <p className="text-sm text-gray-600">
                 Larger parking areas require more steel, fabric, and labour, increasing the overall cost.
               </p>
             </div>
-            <div className="bg-greenbell-50 rounded-2xl p-5">
+            <div className="bg-white border border-gray-200 rounded-2xl p-5">
               <h3 className="font-bold text-greenbell-800 mb-1">2. Material Type</h3>
               <p className="text-sm text-gray-600">
                 100% waterproof materials cost more than standard 90% shade nets due to their enhanced protection and durability.
               </p>
             </div>
-            <div className="bg-greenbell-50 rounded-2xl p-5">
+            <div className="bg-white border border-gray-200 rounded-2xl p-5">
               <h3 className="font-bold text-greenbell-800 mb-1">3. Design Type</h3>
               <p className="text-sm text-gray-600">
                 Curved and custom-designed shades are generally more expensive than standard cantilever structures.
               </p>
             </div>
-            <div className="bg-greenbell-50 rounded-2xl p-5">
+            <div className="bg-white border border-gray-200 rounded-2xl p-5">
               <h3 className="font-bold text-greenbell-800 mb-1">4. Steel Quality</h3>
               <p className="text-sm text-gray-600">
                 Heavy-duty steel structures with anti-rust coatings and premium finishing typically cost more but last longer.
               </p>
             </div>
-            <div className="bg-greenbell-50 rounded-2xl p-5">
+            <div className="bg-white border border-gray-200 rounded-2xl p-5">
               <h3 className="font-bold text-greenbell-800 mb-1">5. Installation Location</h3>
               <p className="text-sm text-gray-600">
                 Projects outside Nairobi may attract additional transport and labour costs depending on the location.
@@ -278,7 +278,7 @@ const CarShadePrices = () => {
             Installing a quality car shade offers many long-term benefits.
           </p>
           <div className="grid md:grid-cols-2 gap-6 mb-12">
-            <div className="bg-greenbell-50 rounded-2xl p-6">
+            <div className="bg-white border border-gray-200 rounded-2xl p-6">
               <h3 className="font-bold text-greenbell-800 mb-3">Vehicle Protection</h3>
               <p className="text-sm text-gray-600 mb-3">Car shades help protect vehicles from:</p>
               <ul className="space-y-1.5 text-sm text-gray-700">
@@ -290,19 +290,19 @@ const CarShadePrices = () => {
               </ul>
             </div>
             <div className="space-y-6">
-              <div className="bg-greenbell-50 rounded-2xl p-6">
+              <div className="bg-white border border-gray-200 rounded-2xl p-6">
                 <h3 className="font-bold text-greenbell-800 mb-2">Improved Property Appearance</h3>
                 <p className="text-sm text-gray-600">
                   Modern car shades enhance the visual appeal of homes and commercial properties.
                 </p>
               </div>
-              <div className="bg-greenbell-50 rounded-2xl p-6">
+              <div className="bg-white border border-gray-200 rounded-2xl p-6">
                 <h3 className="font-bold text-greenbell-800 mb-2">Increased Property Value</h3>
                 <p className="text-sm text-gray-600">
                   Well-designed outdoor structures can improve the value and attractiveness of a property.
                 </p>
               </div>
-              <div className="bg-greenbell-50 rounded-2xl p-6">
+              <div className="bg-white border border-gray-200 rounded-2xl p-6">
                 <h3 className="font-bold text-greenbell-800 mb-2">Better Comfort</h3>
                 <p className="text-sm text-gray-600">
                   Vehicles parked under shades remain cooler compared to direct sun exposure.
@@ -317,7 +317,7 @@ const CarShadePrices = () => {
             At Greenbell Group, we install car parking shades for both residential and commercial clients.
           </p>
           <div className="grid md:grid-cols-2 gap-6 mb-12">
-            <div className="bg-greenbell-50 rounded-2xl p-6">
+            <div className="bg-white border border-gray-200 rounded-2xl p-6">
               <h3 className="font-bold text-greenbell-800 mb-3">Residential Projects</h3>
               <ul className="space-y-1.5 text-sm text-gray-700">
                 {['Homes', 'Villas', 'Apartment parking'].map((item, idx) => (
@@ -327,7 +327,7 @@ const CarShadePrices = () => {
                 ))}
               </ul>
             </div>
-            <div className="bg-greenbell-50 rounded-2xl p-6">
+            <div className="bg-white border border-gray-200 rounded-2xl p-6">
               <h3 className="font-bold text-greenbell-800 mb-3">Commercial Projects</h3>
               <ul className="space-y-1.5 text-sm text-gray-700">
                 {['Office buildings', 'Schools', 'Churches', 'Shopping centres', 'Hotels'].map((item, idx) => (
@@ -352,7 +352,7 @@ const CarShadePrices = () => {
               'Pricing transparency',
               'Professional installation',
             ].map((item, idx) => (
-              <li key={idx} className="flex items-start gap-2 text-gray-700 bg-greenbell-50 rounded-xl px-4 py-3">
+              <li key={idx} className="flex items-start gap-2 text-gray-700 bg-white border border-gray-200 rounded-xl px-4 py-3">
                 <span className="text-greenbell-600 mt-1">▸</span>
                 {item}
               </li>
@@ -369,7 +369,7 @@ const CarShadePrices = () => {
               Contact Greenbell Group for a free site visit and accurate quotation for your car shade project.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link to="/get-quote" className="bg-white text-greenbell-700 px-8 py-3 rounded-full font-semibold hover:bg-greenbell-50 transition-colors">
+              <Link to="/get-quote" className="bg-white text-greenbell-700 px-8 py-3 rounded-full font-semibold border border-greenbell-700 hover:bg-gray-50 transition-colors">
                 Request a Quote
               </Link>
               <a href="tel:+254716807767" className="inline-block border-2 border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white hover:text-greenbell-700 transition-colors">
@@ -379,14 +379,14 @@ const CarShadePrices = () => {
           </div>
 
           {/* Comment section */}
-          <div className="border-t border-greenbell-100 pt-8">
+          <div className="border-t border-gray-200 pt-8">
             <h3 className="text-xl font-bold text-greenbell-800 mb-2">Leave a Comment</h3>
             <p className="text-sm text-gray-500 mb-6">
               Your email address will not be published. Required fields are marked *
             </p>
 
             {commentSubmitted && (
-              <div className="mb-6 p-4 bg-greenbell-50 border border-greenbell-200 text-greenbell-800 rounded-lg animate-fade-in">
+              <div className="mb-6 p-4 bg-greenbell-600 text-white rounded-lg animate-fade-in">
                 <p className="font-semibold">Thank you for your comment!</p>
                 <p className="text-sm">Your comment has been received and will appear after review.</p>
               </div>

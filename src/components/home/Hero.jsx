@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[70vh] md:min-h-screen flex items-start overflow-hidden">
+    <section className="relative min-h-[62vh] md:min-h-screen flex items-start overflow-hidden">
       {/* Full background image with dark overlay */}
       <div className="absolute inset-0">
         <img
@@ -17,12 +17,12 @@ const Hero = () => {
 
       <div className="container-custom relative z-10 pt-10 md:pt-14 pb-16">
         <div className="max-w-3xl">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4 md:mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-3 md:mb-6">
             Premium Shade & Canopy Solutions{' '}
             <span className="text-red-400">Built to Last</span>
           </h1>
 
-          <p className="text-base sm:text-lg md:text-xl text-gray-200 mb-8 md:mb-10 leading-relaxed max-w-2xl">
+          <p className="text-base sm:text-lg md:text-xl text-gray-200 mb-5 md:mb-10 leading-relaxed max-w-2xl">
             Custom-designed canopies, car shades, pergolas, gazebos, swimming pool covers,
             and commercial shade structures crafted with quality and precision.
           </p>

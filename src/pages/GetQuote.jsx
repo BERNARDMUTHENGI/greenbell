@@ -47,7 +47,7 @@ const GetQuote = () => {
       {/* Quote Form */}
       <section className="section-padding bg-white">
         <div className="container-custom max-w-3xl mx-auto">
-          <div className="bg-greenbell-50 p-8 md:p-12 rounded-2xl shadow-sm">
+          <div className="bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-gray-200">
             <h2 className="text-2xl font-bold text-greenbell-800 mb-2">Project Details</h2>
             <p className="text-gray-600 mb-6">Fill in the form below and we'll get back to you with a detailed quote.</p>
             

@@ -6,7 +6,7 @@ const ShadeSolutions = () => {
   const solutions = servicesList.slice(0, 8);
 
   return (
-    <section className="section-padding bg-greenbell-50">
+    <section className="section-padding bg-white">
       <div className="container-custom">
         <div className="text-center mb-12">
           <span className="text-greenbell-600 font-semibold text-sm uppercase tracking-wider">Our Solutions</span>

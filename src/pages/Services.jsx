@@ -49,7 +49,7 @@ const Services = () => {
                   <p className="text-gray-600 text-sm mb-4 flex-1">{service.shortDesc}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {service.benefits.slice(0, 3).map((benefit, idx) => (
-                      <span key={idx} className="text-xs bg-greenbell-50 text-greenbell-700 px-2.5 py-1 rounded-full">
+                      <span key={idx} className="text-xs bg-gray-100 text-greenbell-700 px-2.5 py-1 rounded-full">
                         {benefit}
                       </span>
                     ))}
@@ -65,7 +65,7 @@ const Services = () => {
             ))}
           </div>
 
-          <div className="mt-12 text-center bg-greenbell-50 rounded-3xl p-8 md:p-12">
+          <div className="mt-12 text-center bg-white border border-gray-200 rounded-3xl p-8 md:p-12 shadow-sm">
             <h3 className="text-2xl font-bold text-greenbell-800 mb-3">Ready to Get Started?</h3>
             <p className="text-gray-600 mb-6 max-w-xl mx-auto">
               Contact us for a free consultation and custom quote tailored to your project.
