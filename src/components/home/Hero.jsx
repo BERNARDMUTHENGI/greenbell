@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-start overflow-hidden">
+    <section className="relative min-h-[70vh] md:min-h-screen flex items-start overflow-hidden">
       {/* Full background image with dark overlay */}
       <div className="absolute inset-0">
         <img
