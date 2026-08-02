@@ -9,28 +9,22 @@ const Gallery = () => {
     ? galleryData
     : galleryData.filter(item => item.category === selectedCategory);
 
-  // Map images to specific gallery items by title
-  const getGalleryImage = (title) => {
-    const imageMap = {
-      'Site Installation': 'shade1.jpg',
-      'Canopy Structure': 'shade2.jpg',
-      'Event Setup': 'shade3.jpg',
-      'Custom Design': 'shade4.jpg',
-      'Parking Solution': 'shade5.jpg',
-      'Residential Shade': 'shade6.jpg',
-      'Restaurant Canopy': 'shade7.jpg',
-      'Pool Cover': 'shade8.jpg'
-    };
-    return imageMap[title] || 'shade1.jpg';
-  };
-
   return (
     <>
-      {/* Hero Section */}
-      <section className="bg-greenbell-50 py-16">
-        <div className="container-custom">
-          <h1 className="heading-primary text-center">Gallery</h1>
-          <p className="text-center text-gray-600 mt-4 max-w-2xl mx-auto">
+      {/* Hero Section with background image */}
+      <section className="relative min-h-[50vh] md:min-h-[60vh] flex items-center overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="/images/shade3.jpg"
+            alt="Greenbell gallery"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/65" />
+        </div>
+        <div className="container-custom relative z-10 py-24 text-center">
+          <span className="text-red-400 font-semibold text-sm uppercase tracking-wider">Our Work</span>
+          <h1 className="heading-primary text-white mt-3">Gallery</h1>
+          <p className="text-gray-200 mt-4 max-w-2xl mx-auto text-lg">
             Visual showcase of our work and installations
           </p>
         </div>
@@ -56,21 +50,22 @@ const Gallery = () => {
             ))}
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {filteredGallery.map((item) => (
-              <div 
-                key={item.id} 
+              <div
+                key={item.id}
                 className="aspect-square rounded-2xl overflow-hidden group cursor-pointer relative shadow-sm hover:shadow-lg transition-shadow"
               >
-                <img 
-                  src={`/images/${getGalleryImage(item.title)}`}
+                <img
+                  src={item.image}
                   alt={item.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-greenbell-900/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                   <div>
                     <h4 className="font-semibold text-white">{item.title}</h4>
-                    <p className="text-xs text-greenbell-200">{item.category}</p>
+                    <p className="text-xs text-red-200">{item.category}</p>
                   </div>
                 </div>
               </div>

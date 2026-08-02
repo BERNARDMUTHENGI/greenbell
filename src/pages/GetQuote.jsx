@@ -62,7 +62,7 @@ const GetQuote = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-greenbell-500 focus:border-greenbell-500 outline-none"
-                    placeholder="John Doe"
+                    placeholder="Bernard Muthengi"
                   />
                 </div>
                 <div>
@@ -74,7 +74,7 @@ const GetQuote = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-greenbell-500 focus:border-greenbell-500 outline-none"
-                    placeholder="john@example.com"
+                    placeholder="bernarmuthengi9@gmail.com"
                   />
                 </div>
               </div>

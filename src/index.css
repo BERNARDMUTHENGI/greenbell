@@ -1,22 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
-
-/* Google Font - Marope */
-@import url('https://fonts.googleapis.com/css2?family=Marope&display=swap');
 
 /* Custom theme configuration */
 @theme {
-  --font-family-marope: 'Marope', serif;
-  
-  --color-greenbell-50: #e8f5e9;
-  --color-greenbell-100: #c8e6c9;
-  --color-greenbell-200: #a5d6a7;
-  --color-greenbell-300: #81c784;
-  --color-greenbell-400: #66bb6a;
-  --color-greenbell-500: #4caf50;
-  --color-greenbell-600: #43a047;
-  --color-greenbell-700: #388e3c;
-  --color-greenbell-800: #2e7d32;
-  --color-greenbell-900: #1b5e20;
+  --font-family-marope: 'Manrope', sans-serif;
+
+  /* Red brand palette (replaces green theme) */
+  --color-greenbell-50: #fef2f2;
+  --color-greenbell-100: #fee2e2;
+  --color-greenbell-200: #fecaca;
+  --color-greenbell-300: #fca5a5;
+  --color-greenbell-400: #f87171;
+  --color-greenbell-500: #ef4444;
+  --color-greenbell-600: #dc2626;
+  --color-greenbell-700: #b91c1c;
+  --color-greenbell-800: #991b1b;
+  --color-greenbell-900: #7f1d1d;
+  --color-greenbell-950: #450a0a;
 }
 
 /* Base styles */
@@ -82,7 +82,7 @@
   }
 
   .heading-primary {
-    font-size: 2.5rem;
+    font-size: 1.875rem;
     font-weight: 700;
     color: var(--color-greenbell-800);
     line-height: 1.2;
@@ -104,11 +104,11 @@
     }
     
     .heading-primary {
-      font-size: 3rem;
+      font-size: 2.25rem;
     }
     
     .heading-secondary {
-      font-size: 2.25rem;
+      font-size: 2rem;
     }
   }
   
@@ -119,30 +119,31 @@
     }
     
     .heading-primary {
-      font-size: 3.75rem;
+      font-size: 2.75rem;
     }
   }
+  
   @keyframes bounce-slow {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-}
-
-.animate-bounce-slow {
-  animation: bounce-slow 3s ease-in-out infinite;
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-.animate-fade-in {
-  animation: fade-in 0.5s ease-out;
-}
+  .animate-bounce-slow {
+    animation: bounce-slow 3s ease-in-out infinite;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.5s ease-out;
+  }
 }

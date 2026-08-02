@@ -9,32 +9,22 @@ const Projects = () => {
     ? projectsData 
     : projectsData.filter(p => p.category === filter);
 
-  // Map images to specific projects by name
-  const getProjectImage = (projectName) => {
-    const imageMap = {
-      'Restaurant Canopy': 'shade2.jpg',
-      'Car Parking Shade': 'shade1.jpg',
-      'Event Marquee Tent': 'shade3.jpg',
-      'Swimming Pool Shade': 'shade4.jpg',
-      'Custom Car Shade': 'shade5.jpg',
-      'Playground Cover': 'shade6.jpg',
-      'Restaurant Parasol': 'shade7.jpg',
-      'Privacy Screen': 'shade8.jpg',
-      'Commercial Parking Space': 'shade9.jpg',
-      'Pergolla': 'shade10.jpg',
-      'Bike Park': 'shade11.jpg',
-      'Garden Umbrella': 'shade12.jpg'
-    };
-    return imageMap[projectName] || 'shade1.jpg'; // fallback to shade1.jpg if not found
-  };
-
   return (
     <>
-      {/* Hero Section */}
-      <section className="bg-greenbell-50 py-16">
-        <div className="container-custom">
-          <h1 className="heading-primary text-center">Our Projects</h1>
-          <p className="text-center text-gray-600 mt-4 max-w-2xl mx-auto">
+      {/* Hero Section with background image */}
+      <section className="relative min-h-[50vh] md:min-h-[60vh] flex items-center overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="/images/shade2.jpg"
+            alt="Greenbell projects"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/65" />
+        </div>
+        <div className="container-custom relative z-10 py-24 text-center">
+          <span className="text-red-400 font-semibold text-sm uppercase tracking-wider">Our Work</span>
+          <h1 className="heading-primary text-white mt-3">Our Projects</h1>
+          <p className="text-gray-200 mt-4 max-w-2xl mx-auto text-lg">
             Showcasing our expertise and craftsmanship
           </p>
         </div>
@@ -65,7 +55,7 @@ const Projects = () => {
               <div key={project.id} className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow border border-greenbell-100 group">
                 <div className="h-56 overflow-hidden">
                   <img 
-                    src={`/images/${getProjectImage(project.name)}`}
+                    src={project.image}
                     alt={project.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />

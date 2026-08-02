@@ -1,20 +1,22 @@
 import React from 'react';
 import Hero from '../components/home/Hero';
-import Stats from '../components/home/Stats';
 import AboutPreview from '../components/home/AboutPreview';
-import ServicesPreview from '../components/home/ServicesPreview';
-import ProjectsPreview from '../components/home/ProjectsPreview';
+import ShadeSolutions from '../components/home/ShadeSolutions';
 import Testimonials from '../components/home/Testimonials';
+import PriceSection from '../components/home/PriceSection';
+import RecentInstallations from '../components/home/RecentInstallations';
+import MapSection from '../components/home/MapSection';
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <Stats />
       <AboutPreview />
-      <ServicesPreview />
-      <ProjectsPreview />
+      <ShadeSolutions />
       <Testimonials />
+      <PriceSection />
+      <RecentInstallations />
+      <MapSection />
     </>
   );
 };

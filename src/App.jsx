@@ -9,7 +9,10 @@ import Projects from './pages/Projects';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import GetQuote from './pages/GetQuote';
+import ServiceDetail from './pages/ServiceDetail';
+import CarShadePrices from './pages/CarShadePrices';
 import WhatsAppButton from './components/common/WhatsAppButton';
+import ScrollToTopButton from './components/common/ScrollToTopButton';
 
 function App() {
   return (
@@ -20,6 +23,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services/:slug" element={<ServiceDetail />} />
+          <Route path="/car-shade-prices" element={<CarShadePrices />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
@@ -28,6 +33,7 @@ function App() {
       </main>
       <Footer />
       <WhatsAppButton />
+      <ScrollToTopButton />
     </div>
   );
 }
