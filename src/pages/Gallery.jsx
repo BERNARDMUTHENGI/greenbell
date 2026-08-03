@@ -22,7 +22,7 @@ const Gallery = () => {
           <div className="absolute inset-0 bg-black/65" />
         </div>
         <div className="container-custom relative z-10 py-24 text-center">
-          <span className="text-red-400 font-semibold text-sm uppercase tracking-wider">Our Work</span>
+          <span className="text-greenbell-400 font-semibold text-sm uppercase tracking-wider">Our Work</span>
           <h1 className="heading-primary text-white mt-3">Gallery</h1>
           <p className="text-gray-200 mt-4 max-w-2xl mx-auto text-lg">
             Visual showcase of our work and installations
@@ -62,12 +62,6 @@ const Gallery = () => {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
-                  <div>
-                    <h4 className="font-semibold text-white">{item.title}</h4>
-                    <p className="text-xs text-red-200">{item.category}</p>
-                  </div>
-                </div>
               </div>
             ))}
           </div>

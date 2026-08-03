@@ -70,7 +70,7 @@ export const servicesList = [
       'Custom branding options',
       'Easy maintenance',
     ],
-    image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=80',
+    image: '/images/shade40.jpg',
     sections: [
       {
         heading: 'Outdoor Dining, Elevated',
@@ -78,7 +78,7 @@ export const servicesList = [
           'Al fresco dining is one of the fastest-growing trends in the hospitality industry. Our restaurant canopies are engineered to extend your usable seating area while protecting guests from harsh sun, rain, and dust — so your service never stops, whatever the weather.',
           'Every canopy is designed around your space, brand colours, and layout. Whether you need a retractable awning, a permanent covered terrace, or a full branded canopy system, our team crafts a solution that blends perfectly with your restaurant\'s identity.',
         ],
-        image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=80',
+        image: '/images/shade40.jpg',
       },
       {
         heading: 'Built for Kenyan Weather',
@@ -86,7 +86,7 @@ export const servicesList = [
           'We use heavy-duty steel frames and premium waterproof or 90% shade fabrics that stand up to intense UV rays, heavy rainfall, and strong winds. The result is a canopy that looks great on day one and stays that way for years.',
           'Our installation team handles everything from site assessment to final fitting, ensuring a secure, professional finish that complies with safety standards.',
         ],
-        image: 'https://images.unsplash.com/photo-1544148103-0773bf10d330?w=1200&q=80',
+        image: '/images/shade40.jpg',
       },
     ],
   },
@@ -103,7 +103,7 @@ export const servicesList = [
       'Wind-resistant design',
       'Custom sizing available',
     ],
-    image: 'https://images.unsplash.com/photo-1590674899484-d5640e854abe?w=1200&q=80',
+    image: '/images/shade1.jpg',
     sections: [
       {
         heading: 'Protect Your Investment',
@@ -111,7 +111,7 @@ export const servicesList = [
           'Direct sunlight, rain, dust, and bird droppings can quickly damage a vehicle\'s paintwork, interior, and resale value. A professionally installed car shade keeps your vehicles cool, clean, and protected all year round.',
           'We manufacture cantilever and curved car shades in standard and premium designs, sized to fit one car or a full parking yard. All structures use rust-resistant steel and long-lasting shade fabric.',
         ],
-        image: 'https://images.unsplash.com/photo-1590674899484-d5640e854abe?w=1200&q=80',
+        image: '/images/shade5.jpg',
       },
       {
         heading: 'For Homes and Businesses',
@@ -119,7 +119,7 @@ export const servicesList = [
           'From single-car shades for private residences to multi-bay installations for apartments, hotels, schools, and commercial lots, we deliver durable parking solutions that add value to any property.',
           'Choose between 90% shade net for breathable, cooler parking or 100% waterproof material for complete rain protection. We\'ll help you pick the right option for your needs and budget.',
         ],
-        image: 'https://images.unsplash.com/photo-1573349252245-41e8d4e5a3b3?w=1200&q=80',
+        image: '/images/shade36.jpg',
       },
     ],
   },
@@ -136,7 +136,7 @@ export const servicesList = [
       'Safety enhancement',
       'Premium aesthetics',
     ],
-    image: 'https://images.unsplash.com/photo-1572331165267-854da2b021b1?w=1200&q=80',
+    image: '/images/shade4.jpg',
     sections: [
       {
         heading: 'Comfort by the Water',
@@ -144,7 +144,7 @@ export const servicesList = [
           'Nothing beats relaxing by the pool without worrying about harsh sun exposure. Our pool shades create a cool, inviting environment for family and guests while protecting your skin from UV damage.',
           'Beyond comfort, shade covers reduce water evaporation and chemical loss, keeping your pool cleaner and lowering your maintenance costs over time.',
         ],
-        image: 'https://images.unsplash.com/photo-1572331165267-854da2b021b1?w=1200&q=80',
+        image: '/images/shade4.jpg',
       },
       {
         heading: 'Designed Around Your Pool',
@@ -152,7 +152,7 @@ export const servicesList = [
           'Whether you need a freestanding shade structure, a cantilever cover, or a retractable system, we design every solution to fit your pool\'s exact shape and size.',
           'Our premium materials are UV-stabilised, fade-resistant, and built to withstand poolside conditions, so your shade stays beautiful for years to come.',
         ],
-        image: 'https://images.unsplash.com/photo-1544148103-0773bf10d330?w=1200&q=80',
+        image: '/images/shade4.jpg',
       },
     ],
   },
@@ -169,7 +169,7 @@ export const servicesList = [
       'Durable construction',
       'Customizable design',
     ],
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80',
+    image: '/images/shade11.jpg',
     sections: [
       {
         heading: 'An Outdoor Living Space',
@@ -177,7 +177,7 @@ export const servicesList = [
           'A pergola turns an ordinary garden or patio into a beautiful outdoor living area — perfect for family dinners, quiet reading corners, or entertaining guests in the evening.',
           'Our pergolas are crafted from high-quality timber and steel options, finished to complement your home\'s architecture. Add climbing plants, outdoor lighting, or privacy screens to make the space truly yours.',
         ],
-        image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80',
+        image: '/images/shade17.jpg',
       },
       {
         heading: 'Tailored to Your Garden',
@@ -185,7 +185,7 @@ export const servicesList = [
           'Every pergola is designed to fit your specific space, whether it\'s a compact courtyard or a sprawling garden. We handle the complete build — design, manufacturing, and installation.',
           'Our team works with you to choose materials, colours, and features that match your lifestyle and budget, delivering a structure that adds real value to your home.',
         ],
-        image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80',
+        image: '/images/shade11.jpg',
       },
     ],
   },
@@ -202,7 +202,7 @@ export const servicesList = [
       'Easy assembly',
       'Event-ready design',
     ],
-    image: 'https://images.unsplash.com/photo-1510076857177-7470076d4098?w=1200&q=80',
+    image: '/images/shade13.jpg',
     sections: [
       {
         heading: 'Versatile Shade Structures',
@@ -210,7 +210,7 @@ export const servicesList = [
           'Gazebos are perfect for gardens, weddings, exhibitions, and commercial promotions. They provide instant, elegant shade that can be relocated whenever your needs change.',
           'We offer both portable and permanent gazebo structures, including custom-branded units that carry your logo and colours for events and marketing activations.',
         ],
-        image: 'https://images.unsplash.com/photo-1510076857177-7470076d4098?w=1200&q=80',
+        image: '/images/shade14.jpg',
       },
       {
         heading: 'Made to Impress',
@@ -218,7 +218,7 @@ export const servicesList = [
           'From market stalls to luxury garden pavilions, our gazebos are manufactured with attention to detail, using robust frames and premium fabric that perform beautifully in Kenyan weather.',
           'Tell us your event or space, and we\'ll recommend the ideal size, style, and branding options for your gazebo.',
         ],
-        image: 'https://images.unsplash.com/photo-1544148103-0773bf10d330?w=1200&q=80',
+        image: '/images/shade15.jpg',
       },
     ],
   },
@@ -235,7 +235,7 @@ export const servicesList = [
       'Sturdy base options',
       'Multiple size options',
     ],
-    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80',
+    image: '/images/shade24.jpg',
     sections: [
       {
         heading: 'Instant Shade, Everyday Elegance',
@@ -243,7 +243,7 @@ export const servicesList = [
           'Garden umbrellas are the simplest way to add shade and style to any outdoor seating area. They\'re easy to open, close, and move — giving you flexibility wherever the day takes you.',
           'Our umbrellas feature fade-resistant, UV-protected fabric and sturdy frames that handle gusty afternoons without tipping over.',
         ],
-        image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80',
+        image: '/images/shade24.jpg',
       },
       {
         heading: 'The Right Umbrella for Your Space',
@@ -251,7 +251,7 @@ export const servicesList = [
           'From compact 2-metre patio umbrellas to large 4-metre commercial models, we supply a range of sizes, colours, and base options to suit restaurants, hotels, homes, and resorts.',
           'We also offer custom printing so your umbrellas can carry your brand while shading your guests.',
         ],
-        image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=80',
+        image: '/images/shade24.jpg',
       },
     ],
   },
@@ -268,7 +268,7 @@ export const servicesList = [
       'Quick setup and teardown',
       'Weather protection',
     ],
-    image: 'https://images.unsplash.com/photo-1478146059778-26028b07395a?w=1200&q=80',
+    image: '/images/shade12.jpg',
     sections: [
       {
         heading: 'Coverage for Every Occasion',
@@ -276,7 +276,7 @@ export const servicesList = [
           'Weddings, graduations, corporate functions, church events, and trade shows — our event tents deliver reliable, professional coverage so your gathering goes ahead comfortably, rain or shine.',
           'We supply and install tents in a range of sizes and configurations, from intimate garden tents to large-capacity structures for hundreds of guests.',
         ],
-        image: 'https://images.unsplash.com/photo-1478146059778-26028b07395a?w=1200&q=80',
+        image: '/images/shade13.jpg',
       },
       {
         heading: 'Setup You Can Trust',
@@ -284,7 +284,7 @@ export const servicesList = [
           'Our trained crews handle delivery, setup, and teardown, ensuring your event space is ready on time and safely secured. We work with you to plan layouts, flooring, and lighting options.',
           'With professional installation and quality materials, your event tent will stand strong throughout the occasion.',
         ],
-        image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=80',
+        image: '/images/shade14.jpg',
       },
     ],
   },
@@ -301,7 +301,7 @@ export const servicesList = [
       'Climate control options',
       'Flexible configurations',
     ],
-    image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=80',
+    image: '/images/shade26.jpg',
     sections: [
       {
         heading: 'Grandeur for Prestigious Events',
@@ -309,7 +309,7 @@ export const servicesList = [
           'A marquee transforms any venue into a spectacular setting. With elegant lines, generous space, and the option of full branding, marquees are the choice for weddings and high-profile corporate events.',
           'We can incorporate lighting, flooring, heating or cooling, and stylish interiors so your marquee becomes a complete, memorable venue.',
         ],
-        image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=80',
+        image: '/images/shade25.jpg',
       },
       {
         heading: 'Bespoke Event Venues',
@@ -317,7 +317,7 @@ export const servicesList = [
           'Every marquee project is tailored to your guest list, venue, and theme. Our team advises on the ideal size, layout, and finishes to create the atmosphere you envision.',
           'From classic white marquees to fully customised branded structures, we deliver premium results that impress your guests.',
         ],
-        image: 'https://images.unsplash.com/photo-1478146059778-26028b07395a?w=1200&q=80',
+        image: '/images/shade49.jpg',
       },
     ],
   },
@@ -334,7 +334,7 @@ export const servicesList = [
       'Low maintenance',
       'Professional installation',
     ],
-    image: 'https://images.unsplash.com/photo-1573349252245-41e8d4e5a3b3?w=1200&q=80',
+    image: '/images/shade21.jpg',
     sections: [
       {
         heading: 'Large-Scale Vehicle Protection',
@@ -342,7 +342,7 @@ export const servicesList = [
           'Whether you manage an apartment complex, office building, school, or shopping centre, our parking shades protect dozens of vehicles from sun and rain while keeping your property looking organised and professional.',
           'We design structurally sound, code-compliant shade systems that can span multiple rows of parking with minimal support columns.',
         ],
-        image: 'https://images.unsplash.com/photo-1573349252245-41e8d4e5a3b3?w=1200&q=80',
+        image: '/images/shade22.jpg',
       },
       {
         heading: 'Engineered to Last',
@@ -350,7 +350,7 @@ export const servicesList = [
           'Our parking shades use galvanised or coated steel structures and heavy-duty fabric rated for years of outdoor exposure. We handle everything from site survey and design to installation.',
           'Ask us about our cantilever and curved designs, and choose between 90% shade net or 100% waterproof roofing.',
         ],
-        image: 'https://images.unsplash.com/photo-1590674899484-d5640e854abe?w=1200&q=80',
+        image: '/images/shade1.jpg',
       },
     ],
   },
@@ -367,7 +367,7 @@ export const servicesList = [
       'Bulk project capability',
       'Long-term warranty',
     ],
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80',
+    image: '/images/shade46.jpg',
     sections: [
       {
         heading: 'Shade at Commercial Scale',
@@ -375,7 +375,7 @@ export const servicesList = [
           'From walkway covers and forecourt canopies to large public gathering shelters, we engineer commercial shade structures that balance aesthetics, function, and durability.',
           'Our team manages complex projects from concept and structural design through to fabrication and installation, keeping your operations running with minimal disruption.',
         ],
-        image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80',
+        image: '/images/shade47.jpg',
       },
       {
         heading: 'A Partner You Can Rely On',
@@ -383,7 +383,7 @@ export const servicesList = [
           'We work with contractors, developers, and facility managers to deliver compliant, cost-effective shade infrastructure that enhances visitor experience and protects people and assets.',
           'With a strong track record across Nairobi and Kenya, we bring engineering expertise and dependable delivery to every commercial project.',
         ],
-        image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&q=80',
+        image: '/images/shade46.jpg',
       },
     ],
   },
@@ -400,7 +400,7 @@ export const servicesList = [
       'Custom sizing',
       'Reinforced edges',
     ],
-    image: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200&q=80',
+    image: '/images/shade31.jpg',
     sections: [
       {
         heading: 'Built for the Road',
@@ -408,7 +408,7 @@ export const servicesList = [
           'Heavy-duty tarpaulins protect your cargo and fleet from rain, sun, and dust during long-distance hauls. We custom-manufacture tarpaulins to the exact dimensions of your lorry for a perfect, secure fit.',
           'Our materials are selected for tear resistance, waterproofing, and UV stability, ensuring reliable performance trip after trip.',
         ],
-        image: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200&q=80',
+        image: '/images/shade32.jpg',
       },
       {
         heading: 'Custom Covers, Precision Fit',
@@ -416,7 +416,7 @@ export const servicesList = [
           'Whether you operate trucks, pickups, trailers, or specialised vehicles, we can design and fabricate the right cover — including reinforced edges, straps, and grommets where needed.',
           'Our fabrication team delivers durable, functional tarpaulins that protect your investment and keep your cargo safe.',
         ],
-        image: 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1200&q=80',
+        image: '/images/shade33.jpg',
       },
     ],
   },
@@ -433,7 +433,7 @@ export const servicesList = [
       'Easy to clean',
       'Long-lasting protection',
     ],
-    image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0afa?w=1200&q=80',
+    image: '/images/shade34.jpg',
     sections: [
       {
         heading: 'Keep Wheels in Top Condition',
@@ -441,7 +441,7 @@ export const servicesList = [
           'Spare wheels and stored tyres are exposed to UV damage, cracking, and dirt. Our custom wheel covers shield them from the elements, extending their lifespan and keeping them ready for the road.',
           'Made from durable, weather-resistant fabric, our covers are tailored to your wheel size for a snug, professional fit.',
         ],
-        image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0afa?w=1200&q=80',
+        image: '/images/shade35.jpg',
       },
       {
         heading: 'Custom-Made to Measure',
@@ -449,7 +449,7 @@ export const servicesList = [
           'Tell us your wheel specifications and we\'ll manufacture covers that fit perfectly, whether you need a single cover or covers for a whole fleet.',
           'Available in a range of colours and finishes, our wheel covers combine protection with a clean, tidy appearance.',
         ],
-        image: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200&q=80',
+        image: '/images/shade36.jpg',
       },
     ],
   },
@@ -466,7 +466,7 @@ export const servicesList = [
       'Customizable opacity',
       'Easy installation',
     ],
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80',
+    image: '/images/shade34.jpg',
     sections: [
       {
         heading: 'Your Private Outdoor Retreat',
@@ -474,7 +474,7 @@ export const servicesList = [
           'Privacy screens transform exposed gardens, balconies, and patios into secluded retreats. They shield you from neighbours and street view while adding a refined design element to your space.',
           'Beyond privacy, our screens reduce wind and provide a touch of shade, making your outdoor areas more comfortable and usable year-round.',
         ],
-        image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80',
+        image: '/images/shade39.jpg',
       },
       {
         heading: 'Aesthetic and Practical',
@@ -482,7 +482,7 @@ export const servicesList = [
           'Available in a range of materials, colours, and opacity levels, our privacy screens are designed to suit residential gardens and commercial properties alike.',
           'We install screens that are sturdy, low-maintenance, and tailored to the exact dimensions and style of your space.',
         ],
-        image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80',
+        image: '/images/shade23.jpg',
       },
     ],
   },
@@ -499,7 +499,7 @@ export const servicesList = [
       'Material selection',
       'Expert craftsmanship',
     ],
-    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&q=80',
+    image: '/images/shade40.jpg',
     sections: [
       {
         heading: 'Made Around You',
@@ -507,7 +507,7 @@ export const servicesList = [
           'Have an unusual space, a specific design idea, or a challenge that off-the-shelf products can\'t solve? Our custom shade solutions are built around your exact requirements.',
           'We begin with a consultation to understand your goals, then design, fabricate, and install a solution that fits your space and style perfectly.',
         ],
-        image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&q=80',
+        image: '/images/shade41.jpg',
       },
       {
         heading: 'From Idea to Installation',
@@ -515,7 +515,7 @@ export const servicesList = [
           'Our in-house design and fabrication capabilities mean we can turn creative concepts into practical, durable structures — without the compromises of generic products.',
           'Partner with us for one-off bespoke structures, branded installations, or specialised covers. If you can imagine it, we can build it.',
         ],
-        image: 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1200&q=80',
+        image: '/images/shade42.jpg',
       },
     ],
   },
@@ -532,7 +532,7 @@ export const servicesList = [
       'Preventive repairs',
       'Extended product lifespan',
     ],
-    image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&q=80',
+    image: '/images/shade43.jpg',
     sections: [
       {
         heading: 'Protecting Your Investment',
@@ -540,7 +540,7 @@ export const servicesList = [
           'Regular maintenance keeps your shade structures looking great and performing well for years. Our service teams inspect, clean, and repair canopies, tents, and car shades so small issues never become costly problems.',
           'We offer flexible maintenance plans for homes, restaurants, schools, and commercial properties, with service visits scheduled around your convenience.',
         ],
-        image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&q=80',
+        image: '/images/shade44.jpg',
       },
       {
         heading: 'Clean, Safe, Long-Lasting',
@@ -548,7 +548,7 @@ export const servicesList = [
           'Our maintenance covers fabric cleaning and treatment, frame checks, tension adjustments, and replacement of worn components and materials.',
           'With seasonal maintenance plans, you can extend the lifespan of every structure we\'ve installed — and many that others have installed too.',
         ],
-        image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80',
+        image: '/images/shade45.jpg',
       },
     ],
   },
@@ -565,7 +565,7 @@ export const servicesList = [
       'Recommendation plans',
       'Safety compliance',
     ],
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&q=80',
+    image: '/images/shade46.jpg',
     sections: [
       {
         heading: 'Identify Issues Early',
@@ -573,7 +573,7 @@ export const servicesList = [
           'Structures exposed to sun, wind, and rain eventually show signs of wear. Our inspection service identifies weakened frames, frayed fabric, and loose fittings before they escalate into safety risks or expensive repairs.',
           'After every inspection, you receive a clear report with our findings and a recommended action plan.',
         ],
-        image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&q=80',
+        image: '/images/shade47.jpg',
       },
       {
         heading: 'Confidence and Compliance',
@@ -581,7 +581,7 @@ export const servicesList = [
           'For businesses, schools, and property managers, regular inspections demonstrate due diligence and help maintain safe environments for customers, staff, and visitors.',
           'Our experienced inspectors provide professional, thorough assessments and honest advice, so you always know the true condition of your structures.',
         ],
-        image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&q=80',
+        image: '/images/shade48.jpg',
       },
     ],
   },
@@ -598,7 +598,7 @@ export const servicesList = [
       'Timely completion',
       'Post-installation support',
     ],
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80',
+    image: '/images/shade49.jpg',
     sections: [
       {
         heading: 'Done Right, the First Time',
@@ -606,7 +606,7 @@ export const servicesList = [
           'A shade structure is only as good as its installation. Our trained crews anchor, tension, and finish every structure to professional standards, ensuring safety and longevity.',
           'Whether it\'s a residential car shade or a large commercial canopy, we manage the full installation with minimal disruption to your routine.',
         ],
-        image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80',
+        image: '/images/shade50.jpg',
       },
       {
         heading: 'Safety and Reliability',
@@ -614,7 +614,7 @@ export const servicesList = [
           'Our team follows strict safety protocols and uses quality hardware and anchoring systems, so your structure stays secure even in strong winds.',
           'We complete projects on schedule and stand behind our work with post-installation support and guidance on care and maintenance.',
         ],
-        image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&q=80',
+        image: '/images/shade1.jpg',
       },
     ],
   },
@@ -631,7 +631,7 @@ export const servicesList = [
       'Precision engineering',
       'Quality assurance',
     ],
-    image: 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1200&q=80',
+    image: '/images/shade2.jpg',
     sections: [
       {
         heading: 'Precision Manufacturing',
@@ -639,7 +639,7 @@ export const servicesList = [
           'Our workshop fabricates frames, canopies, covers, and structures to exact specifications, combining skilled craftsmanship with quality materials.',
           'From a single bespoke piece to a full production run, we deliver precision-made products that meet strict quality standards.',
         ],
-        image: 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1200&q=80',
+        image: '/images/shade3.jpg',
       },
       {
         heading: 'Bringing Your Vision to Life',
@@ -647,7 +647,7 @@ export const servicesList = [
           'We work from drawings, measurements, or simply a description of what you need. Our team develops practical designs and manufactures them with care and accuracy.',
           'Whatever the scale, our custom fabrication services give you exactly the product your project requires — built to last.',
         ],
-        image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&q=80',
+        image: '/images/shade4.jpg',
       },
     ],
   },
@@ -696,7 +696,7 @@ export const testimonialsData = [
   }
 ];
 
-/* ---------- Gallery (23+ images: local + remote) ---------- */
+/* ---------- Gallery (50 images: all local shade files) ---------- */
 
 export const galleryData = [
   { id: 1, title: 'Site Installation', category: 'Installation', image: '/images/shade1.jpg' },
@@ -711,17 +711,44 @@ export const galleryData = [
   { id: 10, title: 'Pergolla', category: 'Residential', image: '/images/shade10.jpg' },
   { id: 11, title: 'Bike Park', category: 'Commercial', image: '/images/shade11.jpg' },
   { id: 12, title: 'Garden Umbrella', category: 'Residential', image: '/images/shade12.jpg' },
-  { id: 13, title: 'Outdoor Dining Canopy', category: 'Structures', image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80' },
-  { id: 14, title: 'Marquee Installation', category: 'Events', image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80' },
-  { id: 15, title: 'Lorry Tarpaulin', category: 'Transport', image: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=80' },
-  { id: 16, title: 'Wheel Covers', category: 'Transport', image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0afa?w=800&q=80' },
-  { id: 17, title: 'Maintenance Works', category: 'Services', image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80' },
-  { id: 18, title: 'Site Inspection', category: 'Services', image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80' },
-  { id: 19, title: 'Installation Team', category: 'Installation', image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80' },
-  { id: 20, title: 'Fabrication Workshop', category: 'Services', image: 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=800&q=80' },
-  { id: 21, title: 'Parking Shade Structure', category: 'Commercial', image: 'https://images.unsplash.com/photo-1573349252245-41e8d4e5a3b3?w=800&q=80' },
-  { id: 22, title: 'Garden Pergolla', category: 'Residential', image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80' },
-  { id: 23, title: 'Commercial Canopy', category: 'Commercial', image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80' },
+  { id: 13, title: 'Outdoor Dining Canopy', category: 'Structures', image: '/images/shade13.jpg' },
+  { id: 14, title: 'Marquee Installation', category: 'Events', image: '/images/shade14.jpg' },
+  { id: 15, title: 'Lorry Tarpaulin', category: 'Transport', image: '/images/shade15.jpg' },
+  { id: 16, title: 'Wheel Covers', category: 'Transport', image: '/images/shade16.jpg' },
+  { id: 17, title: 'Maintenance Works', category: 'Services', image: '/images/shade17.jpg' },
+  { id: 18, title: 'Site Inspection', category: 'Services', image: '/images/shade18.jpg' },
+  { id: 19, title: 'Installation Team', category: 'Installation', image: '/images/shade19.jpg' },
+  { id: 20, title: 'Fabrication Workshop', category: 'Services', image: '/images/shade20.jpg' },
+  { id: 21, title: 'Parking Shade Structure', category: 'Commercial', image: '/images/shade21.jpg' },
+  { id: 22, title: 'Garden Pergolla', category: 'Residential', image: '/images/shade22.jpg' },
+  { id: 23, title: 'Commercial Canopy', category: 'Commercial', image: '/images/shade23.jpg' },
+  { id: 24, title: 'School Playground Shade', category: 'Commercial', image: '/images/shade24.jpg' },
+  { id: 25, title: 'Walkway Canopy', category: 'Structures', image: '/images/shade25.jpg' },
+  { id: 26, title: 'Hotel Poolside Shade', category: 'Residential', image: '/images/shade26.jpg' },
+  { id: 27, title: 'Farm Equipment Cover', category: 'Commercial', image: '/images/shade27.jpg' },
+  { id: 28, title: 'Loading Bay Canopy', category: 'Commercial', image: '/images/shade28.jpg' },
+  { id: 29, title: 'Garden Pavilion', category: 'Residential', image: '/images/shade29.jpg' },
+  { id: 30, title: 'Outdoor Event Marquee', category: 'Events', image: '/images/shade30.jpg' },
+  { id: 31, title: 'Shopping Mall Walkway', category: 'Commercial', image: '/images/shade31.jpg' },
+  { id: 32, title: 'Security Booth Cover', category: 'Structures', image: '/images/shade32.jpg' },
+  { id: 33, title: 'Fuel Station Canopy', category: 'Commercial', image: '/images/shade33.jpg' },
+  { id: 34, title: 'Warehouse Canopy', category: 'Commercial', image: '/images/shade34.jpg' },
+  { id: 35, title: 'Church Event Tent', category: 'Events', image: '/images/shade35.jpg' },
+  { id: 36, title: 'Backyard Pergola', category: 'Residential', image: '/images/shade36.jpg' },
+  { id: 37, title: 'Office Parking Shade', category: 'Commercial', image: '/images/shade37.jpg' },
+  { id: 38, title: 'Restaurant Terrace Cover', category: 'Structures', image: '/images/shade38.jpg' },
+  { id: 39, title: 'Residential Carport', category: 'Residential', image: '/images/shade39.jpg' },
+  { id: 40, title: 'School Assembly Canopy', category: 'Commercial', image: '/images/shade40.jpg' },
+  { id: 41, title: 'Gate Canopy', category: 'Structures', image: '/images/shade41.jpg' },
+  { id: 42, title: 'Gym Shade Structure', category: 'Commercial', image: '/images/shade42.jpg' },
+  { id: 43, title: 'Market Stall Shade', category: 'Commercial', image: '/images/shade43.jpg' },
+  { id: 44, title: 'Campus Walkway Cover', category: 'Commercial', image: '/images/shade44.jpg' },
+  { id: 45, title: 'Guest House Pergola', category: 'Residential', image: '/images/shade45.jpg' },
+  { id: 46, title: 'Truck Bay Cover', category: 'Transport', image: '/images/shade46.jpg' },
+  { id: 47, title: 'Sports Pavilion Shade', category: 'Commercial', image: '/images/shade47.jpg' },
+  { id: 48, title: 'Holiday Resort Canopy', category: 'Residential', image: '/images/shade48.jpg' },
+  { id: 49, title: 'Rooftop Terrace Shade', category: 'Residential', image: '/images/shade49.jpg' },
+  { id: 50, title: 'Car Yard Shade', category: 'Commercial', image: '/images/shade50.jpg' },
 ];
 
 /* ---------- Car Shade Price Tables ---------- */

@@ -22,7 +22,7 @@ const Projects = () => {
           <div className="absolute inset-0 bg-black/65" />
         </div>
         <div className="container-custom relative z-10 py-24 text-center">
-          <span className="text-red-400 font-semibold text-sm uppercase tracking-wider">Our Work</span>
+          <span className="text-greenbell-400 font-semibold text-sm uppercase tracking-wider">Our Work</span>
           <h1 className="heading-primary text-white mt-3">Our Projects</h1>
           <p className="text-gray-200 mt-4 max-w-2xl mx-auto text-lg">
             Showcasing our expertise and craftsmanship

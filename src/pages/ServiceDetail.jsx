@@ -32,7 +32,7 @@ const ServiceDetail = () => {
             </svg>
             Back to All Services
           </Link>
-          <span className="text-red-400 font-semibold text-sm uppercase tracking-wider">
+          <span className="text-greenbell-400 font-semibold text-sm uppercase tracking-wider">
             Greenbell Group
           </span>
           <h1 className="heading-primary text-white mt-3">{service.title}</h1>
@@ -94,7 +94,7 @@ const ServiceDetail = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Need {service.title}?
           </h2>
-          <p className="text-red-100 mb-8 max-w-xl mx-auto">
+          <p className="text-greenbell-100 mb-8 max-w-xl mx-auto">
             Get a free consultation and custom quote from our expert team today.
           </p>
           <div className="flex flex-wrap justify-center gap-4">

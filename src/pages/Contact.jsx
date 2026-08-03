@@ -40,7 +40,7 @@ const Contact = () => {
           <div className="absolute inset-0 bg-black/65" />
         </div>
         <div className="container-custom relative z-10 py-24 text-center">
-          <span className="text-red-400 font-semibold text-sm uppercase tracking-wider">
+          <span className="text-greenbell-400 font-semibold text-sm uppercase tracking-wider">
             Get in Touch
           </span>
           <h1 className="heading-primary text-white mt-3">Contact Us</h1>
@@ -97,7 +97,7 @@ const Contact = () => {
 
               <div className="bg-greenbell-700 text-white p-6 rounded-2xl">
                 <h3 className="font-semibold mb-3">Prefer to Talk?</h3>
-                <p className="text-sm text-red-100 mb-4">
+                <p className="text-sm text-greenbell-100 mb-4">
                   Call us directly and speak to our team about your project.
                 </p>
                 <a

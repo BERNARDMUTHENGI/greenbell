@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[62vh] md:min-h-screen flex items-start overflow-hidden">
+    <section className="relative min-h-[40vh] md:min-h-screen flex items-start overflow-hidden">
       {/* Full background image with dark overlay */}
       <div className="absolute inset-0">
         <img
@@ -15,11 +15,11 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-black/30" />
       </div>
 
-      <div className="container-custom relative z-10 pt-12 md:pt-14 pb-16">
+      <div className="container-custom relative z-10 pt-12 md:pt-14 pb-6 md:pb-16">
         <div className="max-w-3xl">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-snug mb-4 md:mb-6">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-snug mb-4 md:mb-6">
             Premium Shade & Canopy Solutions{' '}
-            <span className="text-red-400">Built to Last</span>
+            <span className="text-greenbell-400">Built to Last</span>
           </h1>
 
           <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-8 md:mb-10 leading-relaxed max-w-2xl">

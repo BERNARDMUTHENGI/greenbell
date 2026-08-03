@@ -42,7 +42,7 @@ const PriceSection = () => {
       <div className="container-custom">
         <div className="text-center mb-4">
           <span className="text-greenbell-600 font-semibold text-sm uppercase tracking-wider">Transparent Pricing</span>
-          <h2 className="heading-primary mt-2 text-2xl md:text-3xl text-blue-900">Car Shades Prices in Nairobi, Kenya</h2>
+          <h2 className="heading-primary mt-2 text-2xl md:text-3xl text-greenbell-800">Car Shades Prices in Nairobi, Kenya</h2>
           <p className="text-gray-600 mt-4 max-w-3xl mx-auto">
             The cost of installing car parking shades in Nairobi depends on the number of cars, design type,
             and materials used. Standard cantilever car shades start from around KSh 92,400 for one car,

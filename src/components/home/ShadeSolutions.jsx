@@ -5,6 +5,9 @@ import { servicesList } from '../../data/content';
 const ShadeSolutions = () => {
   const solutions = servicesList.slice(0, 8);
 
+  const solutionImage = (service) =>
+    service.id === 5 ? '/images/shade8.jpg' : service.image;
+
   return (
     <section className="section-padding bg-white">
       <div className="container-custom">
@@ -25,7 +28,7 @@ const ShadeSolutions = () => {
             >
               <div className="h-48 overflow-hidden">
                 <img
-                  src={service.image}
+                  src={solutionImage(service)}
                   alt={service.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   loading="lazy"

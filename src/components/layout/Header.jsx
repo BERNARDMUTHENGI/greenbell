@@ -51,9 +51,7 @@ const Header = () => {
     >
       <div className="container-custom py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-greenbell-600 rounded-lg flex items-center justify-center group-hover:bg-greenbell-700 transition-colors">
-            <span className="text-white font-bold text-xl">G</span>
-          </div>
+          <img src="/images/logo.png" alt="Greenbell Group logo" className="h-14 w-auto rounded-full border-2 border-greenbell-600" />
           <div>
             <h1 className="text-xl font-bold text-greenbell-800 leading-tight">GREENBELL</h1>
             <p className="text-xs text-greenbell-600 -mt-1">SHADES & CANOPIES</p>
@@ -70,8 +68,8 @@ const Header = () => {
                     onClick={() => setIsServicesOpen(!isServicesOpen)}
                     className={`text-sm font-medium transition-colors flex items-center gap-1.5 ${
                       location.pathname.startsWith('/services') || location.pathname === '/car-shade-prices'
-                        ? 'text-blue-900 border-b-2 border-blue-900 pb-1'
-                        : 'text-blue-900 hover:text-blue-700'
+                        ? 'text-greenbell-700 border-b-2 border-greenbell-700 pb-1'
+                        : 'text-greenbell-800 hover:text-greenbell-600'
                     }`}
                     aria-haspopup="true"
                     aria-expanded={isServicesOpen}
@@ -98,7 +96,7 @@ const Header = () => {
                         <Link
                           key={service.id}
                           to={`/services/${service.slug}`}
-                          className="px-3 py-2.5 rounded-lg hover:bg-blue-50 transition-colors text-sm text-blue-900 hover:text-blue-700"
+                          className="px-3 py-2.5 rounded-lg hover:bg-greenbell-50 transition-colors text-sm text-greenbell-800 hover:text-greenbell-600"
                         >
                           {service.title}
                         </Link>
@@ -118,8 +116,8 @@ const Header = () => {
                   className={({ isActive }) =>
                     `text-sm font-medium transition-colors ${
                       isActive
-                        ? 'text-blue-900 border-b-2 border-blue-900 pb-1'
-                        : 'text-blue-900 hover:text-blue-700'
+                        ? 'text-greenbell-700 border-b-2 border-greenbell-700 pb-1'
+                        : 'text-greenbell-800 hover:text-greenbell-600'
                     }`
                   }
                 >
@@ -167,7 +165,7 @@ const Header = () => {
                   <>
                     <button
                       onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-                      className="w-full py-3 flex items-center justify-between text-blue-900 transition-colors"
+                      className="w-full py-3 flex items-center justify-between text-greenbell-800 transition-colors"
                     >
                       <span className="font-medium">Services</span>
                       <svg
@@ -185,7 +183,7 @@ const Header = () => {
                           <Link
                             key={service.id}
                             to={`/services/${service.slug}`}
-                            className="py-2 text-sm text-blue-900 hover:text-blue-700 transition-colors"
+                            className="py-2 text-sm text-greenbell-800 hover:text-greenbell-600 transition-colors"
                             onClick={() => setIsMenuOpen(false)}
                           >
                             {service.title}
@@ -207,8 +205,8 @@ const Header = () => {
                     className={({ isActive }) =>
                       `py-3 transition-colors ${
                         isActive
-                          ? 'text-blue-900 font-semibold'
-                          : 'text-blue-900 hover:text-blue-700'
+                          ? 'text-greenbell-700 font-semibold'
+                          : 'text-greenbell-800 hover:text-greenbell-600'
                       }`
                     }
                     onClick={() => setIsMenuOpen(false)}

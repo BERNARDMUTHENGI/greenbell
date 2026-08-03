@@ -15,7 +15,7 @@ const About = () => {
           <div className="absolute inset-0 bg-black/65" />
         </div>
         <div className="container-custom relative z-10 py-24 text-center">
-          <span className="text-red-400 font-semibold text-sm uppercase tracking-wider">
+          <span className="text-greenbell-400 font-semibold text-sm uppercase tracking-wider">
             About Greenbell
           </span>
           <h1 className="heading-primary text-white mt-3">Committed to Excellence in Shade Solutions</h1>
