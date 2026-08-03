@@ -33,7 +33,7 @@ const Hero = () => {
             </Link>
             <Link
               to="/gallery"
-              className="inline-block border-2 border-white text-white px-6 md:px-8 py-3 rounded-full text-base md:text-base font-medium whitespace-nowrap hover:bg-white hover:text-greenbell-700 transition-all duration-300"
+              className="inline-block border-2 border-white text-white px-6 md:px-8 py-3 rounded-[10px] text-base md:text-base font-medium whitespace-nowrap hover:bg-white hover:text-greenbell-700 transition-all duration-300"
             >
               View Projects
             </Link>

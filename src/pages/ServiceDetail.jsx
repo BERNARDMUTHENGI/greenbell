@@ -98,10 +98,10 @@ const ServiceDetail = () => {
             Get a free consultation and custom quote from our expert team today.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/get-quote" className="bg-white text-greenbell-700 px-8 py-3.5 rounded-full font-semibold border border-greenbell-700 hover:bg-gray-50 transition-colors">
+            <Link to="/get-quote" className="bg-white text-greenbell-700 px-8 py-3.5 rounded-[10px] font-semibold border border-greenbell-700 hover:bg-gray-50 transition-colors">
               Get a Free Quote
             </Link>
-            <a href="tel:+254716807767" className="inline-block border-2 border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white hover:text-greenbell-700 transition-colors">
+            <a href="tel:+254716807767" className="inline-block border-2 border-white text-white px-8 py-3 rounded-[10px] font-medium hover:bg-white hover:text-greenbell-700 transition-colors">
               Call +254 716 807 767
             </a>
           </div>

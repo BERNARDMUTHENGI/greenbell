@@ -50,7 +50,7 @@
     background-color: var(--color-greenbell-600);
     color: white;
     padding: 0.875rem 2.25rem;
-    border-radius: 9999px;
+    border-radius: 10px;
     font-weight: 500;
     transition: all 0.3s;
     display: inline-block;
@@ -66,7 +66,7 @@
     border: 2px solid var(--color-greenbell-600);
     color: var(--color-greenbell-600);
     padding: 0.875rem 2.25rem;
-    border-radius: 9999px;
+    border-radius: 10px;
     font-weight: 500;
     transition: all 0.3s;
     display: inline-block;

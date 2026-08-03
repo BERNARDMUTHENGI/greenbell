@@ -102,7 +102,7 @@ const Contact = () => {
                 </p>
                 <a
                   href="tel:+254716807767"
-                  className="inline-block bg-white text-greenbell-700 px-6 py-2.5 rounded-full text-sm font-semibold border border-greenbell-700 hover:bg-gray-50 transition-colors"
+                  className="inline-block bg-white text-greenbell-700 px-6 py-2.5 rounded-[10px] text-sm font-semibold border border-greenbell-700 hover:bg-gray-50 transition-colors"
                 >
                   Call {companyInfo.phone}
                 </a>

@@ -39,7 +39,7 @@ const Projects = () => {
               <button
                 key={category}
                 onClick={() => setFilter(category)}
-                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
+                className={`px-6 py-2 rounded-[10px] text-sm font-medium transition-colors ${
                   filter === category
                     ? 'bg-greenbell-600 text-white'
                     : 'bg-gray-100 text-gray-600 hover:bg-gray-200'

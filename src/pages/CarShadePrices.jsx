@@ -369,10 +369,10 @@ const CarShadePrices = () => {
               Contact Greenbell Group for a free site visit and accurate quotation for your car shade project.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link to="/get-quote" className="bg-white text-greenbell-700 px-8 py-3 rounded-full font-semibold border border-greenbell-700 hover:bg-gray-50 transition-colors">
-                Request a Quote
+              <Link to="/get-quote" className="bg-white text-greenbell-700 px-8 py-3 rounded-[10px] font-semibold border border-greenbell-700 hover:bg-gray-50 transition-colors">
+                Get a Free Quote
               </Link>
-              <a href="tel:+254716807767" className="inline-block border-2 border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white hover:text-greenbell-700 transition-colors">
+              <a href="tel:+254716807767" className="inline-block border-2 border-white text-white px-8 py-3 rounded-[10px] font-medium hover:bg-white hover:text-greenbell-700 transition-colors">
                 Call {companyInfo.phone}
               </a>
             </div>
@@ -445,7 +445,7 @@ const CarShadePrices = () => {
               </label>
               <button
                 type="submit"
-                className="bg-greenbell-600 text-white px-8 py-3 rounded-full font-medium hover:bg-greenbell-700 transition-colors"
+                className="bg-greenbell-600 text-white px-8 py-3 rounded-[10px] font-medium hover:bg-greenbell-700 transition-colors"
               >
                 Post Comment
               </button>
