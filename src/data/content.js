@@ -656,18 +656,18 @@ export const servicesList = [
 /* ---------- Projects ---------- */
 
 export const projectsData = [
-  { id: 1, name: 'Restaurant Canopy', category: 'Commercial', status: 'Complete', image: '/images/shade2.jpg' },
-  { id: 2, name: 'Car Parking Shade', category: 'Commercial', status: 'Complete', image: '/images/shade1.jpg' },
-  { id: 3, name: 'Event Marquee Tent', category: 'Events', status: 'Complete', image: '/images/shade3.jpg' },
+  { id: 1, name: 'Restaurant Canopy', category: 'Commercial', status: 'Complete', image: '/images/shade40.jpg' },
+  { id: 2, name: 'Car Parking Shade', category: 'Commercial', status: 'Complete', image: '/images/shade36.jpg' },
+  { id: 3, name: 'Event Marquee Tent', category: 'Events', status: 'Complete', image: '/images/shade12.jpg' },
   { id: 4, name: 'Swimming Pool Shade', category: 'Residential', status: 'Complete', image: '/images/shade4.jpg' },
   { id: 5, name: 'Custom Car Shade', category: 'Residential', status: 'Complete', image: '/images/shade5.jpg' },
-  { id: 6, name: 'Playground Cover', category: 'Commercial', status: 'Complete', image: '/images/shade6.jpg' },
-  { id: 7, name: 'Restaurant Parasol', category: 'Commercial', status: 'Complete', image: '/images/shade7.jpg' },
-  { id: 8, name: 'Privacy Screen', category: 'Residential', status: 'Complete', image: '/images/shade8.jpg' },
-  { id: 9, name: 'Commercial Parking Space', category: 'Commercial', status: 'Complete', image: '/images/shade9.jpg' },
-  { id: 10, name: 'Pergolla', category: 'Residential', status: 'Complete', image: '/images/shade10.jpg' },
+  { id: 6, name: 'Playground Cover', category: 'Commercial', status: 'Complete', image: '/images/shade24.jpg' },
+  { id: 7, name: 'Restaurant Parasol', category: 'Commercial', status: 'Complete', image: '/images/shade35.jpg' },
+  { id: 8, name: 'Privacy Screen', category: 'Residential', status: 'Complete', image: '/images/shade2.jpg' },
+  { id: 9, name: 'Commercial Parking Space', category: 'Commercial', status: 'Complete', image: '/images/shade7.jpg' },
+  { id: 10, name: 'Pergolla', category: 'Residential', status: 'Complete', image: '/images/shade11.jpg' },
   { id: 11, name: 'Bike Park', category: 'Commercial', status: 'Complete', image: '/images/shade11.jpg' },
-  { id: 12, name: 'Garden Umbrella', category: 'Residential', status: 'Complete', image: '/images/shade12.jpg' },
+  { id: 12, name: 'Garden Umbrella', category: 'Residential', status: 'Complete', image: '/images/shade24.jpg' },
 ];
 
 /* ---------- Testimonials ---------- */

@@ -1,14 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { galleryData } from '../data/content';
 
 const Gallery = () => {
-  const [selectedCategory, setSelectedCategory] = useState('All');
-  const categories = ['All', ...new Set(galleryData.map(item => item.category))];
-
-  const filteredGallery = selectedCategory === 'All'
-    ? galleryData
-    : galleryData.filter(item => item.category === selectedCategory);
-
   return (
     <>
       {/* Hero Section with background image */}
@@ -33,25 +26,8 @@ const Gallery = () => {
       {/* Gallery Grid */}
       <section className="section-padding bg-white">
         <div className="container-custom">
-          {/* Filter */}
-          <div className="flex flex-wrap justify-center gap-2 mb-10">
-            {categories.map((category) => (
-              <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
-                  selectedCategory === category
-                    ? 'bg-greenbell-600 text-white'
-                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                }`}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {filteredGallery.map((item) => (
+            {galleryData.map((item) => (
               <div
                 key={item.id}
                 className="aspect-square rounded-2xl overflow-hidden group cursor-pointer relative shadow-sm hover:shadow-lg transition-shadow"
@@ -65,12 +41,6 @@ const Gallery = () => {
               </div>
             ))}
           </div>
-
-          {filteredGallery.length === 0 && (
-            <div className="text-center py-12">
-              <p className="text-gray-500">No images found in this category.</p>
-            </div>
-          )}
         </div>
       </section>
     </>

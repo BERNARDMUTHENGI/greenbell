@@ -29,10 +29,10 @@ const Hero = () => {
 
           <div className="flex items-center gap-3 md:gap-4">
             <Link to="/get-quote" className="btn-primary text-base md:text-base whitespace-nowrap">
-              Get a Free Quote
+              Contact Us
             </Link>
             <Link
-              to="/projects"
+              to="/gallery"
               className="inline-block border-2 border-white text-white px-6 md:px-8 py-3 rounded-full text-base md:text-base font-medium whitespace-nowrap hover:bg-white hover:text-greenbell-700 transition-all duration-300"
             >
               View Projects
