@@ -48,7 +48,7 @@ export default function App() {
   return (
     <div className="flex min-h-screen items-center justify-center">
       <h1 className="text-red-500 text-[27px]">
-        Domain Suspended
+        Domain Suspended. Visit Vercel.com
       </h1>
     </div>
   );
