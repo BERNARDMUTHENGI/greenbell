@@ -1,43 +1,55 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Header from './components/layout/Header';
-import Footer from './components/layout/Footer';
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Projects from './pages/Projects';
-import Gallery from './pages/Gallery';
-import Contact from './pages/Contact';
-import GetQuote from './pages/GetQuote';
-import ServiceDetail from './pages/ServiceDetail';
-import CarShadePrices from './pages/CarShadePrices';
-import WhatsAppButton from './components/common/WhatsAppButton';
-import ScrollToTopButton from './components/common/ScrollToTopButton';
-import ScrollToTopOnRoute from './components/common/ScrollToTopOnRoute';
+// import React from 'react';
+// import { Routes, Route } from 'react-router-dom';
+// import Header from './components/layout/Header';
+// import Footer from './components/layout/Footer';
+// import Home from './pages/Home';
+// import About from './pages/About';
+// import Services from './pages/Services';
+// import Projects from './pages/Projects';
+// import Gallery from './pages/Gallery';
+// import Contact from './pages/Contact';
+// import GetQuote from './pages/GetQuote';
+// import ServiceDetail from './pages/ServiceDetail';
+// import CarShadePrices from './pages/CarShadePrices';
+// import WhatsAppButton from './components/common/WhatsAppButton';
+// import ScrollToTopButton from './components/common/ScrollToTopButton';
+// import ScrollToTopOnRoute from './components/common/ScrollToTopOnRoute';
 
-function App() {
+import { h1 } from "framer-motion/client";
+
+// function App() {
+//   return (
+//     <div className="min-h-screen bg-white flex flex-col">
+//       <ScrollToTopOnRoute />
+//       <Header />
+//       <main className="flex-grow pt-20">
+//         <Routes>
+//           <Route path="/" element={<Home />} />
+//           <Route path="/about" element={<About />} />
+//           <Route path="/services" element={<Services />} />
+//           <Route path="/services/:slug" element={<ServiceDetail />} />
+//           <Route path="/car-shade-prices" element={<CarShadePrices />} />
+//           <Route path="/projects" element={<Projects />} />
+//           <Route path="/gallery" element={<Gallery />} />
+//           <Route path="/contact" element={<Contact />} />
+//           <Route path="/get-quote" element={<GetQuote />} />
+//         </Routes>
+//       </main>
+//       <Footer />
+//       <WhatsAppButton />
+//       <ScrollToTopButton />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+export default function App() {
   return (
-    <div className="min-h-screen bg-white flex flex-col">
-      <ScrollToTopOnRoute />
-      <Header />
-      <main className="flex-grow pt-20">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/services/:slug" element={<ServiceDetail />} />
-          <Route path="/car-shade-prices" element={<CarShadePrices />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/get-quote" element={<GetQuote />} />
-        </Routes>
-      </main>
-      <Footer />
-      <WhatsAppButton />
-      <ScrollToTopButton />
+    <div className="flex min-h-screen items-center justify-center">
+      <h1 className="text-red-500 text-[27px]">
+        Domain Suspended
+      </h1>
     </div>
   );
 }
-
-export default App;
